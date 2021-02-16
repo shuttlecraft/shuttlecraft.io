@@ -153,3 +153,37 @@ html {
 .white-logo {
   filter: invert(70%) brightness(118%) contrast(119%);
 }
+
+  @media (max-width: 768px) {
+
+    #name {
+      justify-items: left;
+    }
+
+  #logo-text {
+    display: none;
+  }
+
+  #logo {
+    max-width: 20px;
+  }
+
+
+  .button {
+    width: 100px;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+  #landing-text h1 {
+    font-size: 1.2rem;
+  }
+
+  #landing-text h2 {
+    font-size: 0.5rem;
+  }
+
+  .white-logo {
+    height: 130px;
+  }
+}
