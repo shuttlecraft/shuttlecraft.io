@@ -31,7 +31,7 @@ html {
   letter-spacing: normal;
   border-radius: 50px;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 50px;
   color: black;
 }
 
@@ -41,12 +41,23 @@ html {
   color: white;
 }
 
-#logo {
-  max-width: 20%;
-}
-
 #nav {
   max-width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  height: 5.3vh;
+}
+
+#nav a {
+  text-align: center;
+  height: 100%;
+  vertical-align: center;
+  align-items: center;
+  justify-content: normal;
 }
 
 .sticky {
@@ -87,7 +98,7 @@ html {
   cursor: grab;
 }
 
-#nav ul li a {
+.nav-element a {
   color: black;
   display: inline-block;
   text-decoration: none;
@@ -95,6 +106,13 @@ html {
 
 #name {
   font-size: 20px;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo {
+  max-width: 20%;
 }
 
 .nav-element {
@@ -104,8 +122,9 @@ html {
 #landing {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./banner.jpg');
+    url('/static/res/banner.jpg');
   height: 100%;
+  max-height: 95vh;
   background-repeat: no-repeat;
   background-size: 100vw 100%;
   width: 100vw;
@@ -123,11 +142,14 @@ html {
 }
 
 #landing-text h1 {
-  font-size: 10rem;
+  margin-top: 10px;
   font-weight: 500;
 }
 
 #landing-text h2 {
-  font-size: 2rem;
   font-weight: 500;
+}
+
+.white-logo {
+  filter: invert(70%) brightness(118%) contrast(119%);
 }
