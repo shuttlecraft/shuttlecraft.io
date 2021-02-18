@@ -1,0 +1,77 @@
+/* responsive */
+/* navbar */
+#nav-wrapper {
+  flex-direction: column;
+}
+
+#logo {
+  margin: auto;
+}
+
+#logo > #logo-text {
+  letter-spacing: 3px;
+}
+
+#nav {
+  flex-direction: column;
+  width: 100vw;
+}
+
+.nav-item {
+  border-bottom: 0.1px solid #ebebeb;
+}
+
+.nav-link {
+  width: 100vw;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 15px;
+}
+
+#nav > .nav-item:last-of-type {
+  border-bottom: 0px;
+}
+
+/* main */
+#landing > #landing-text > h1 {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+}
+
+#landing > #landing-text > h2 {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+#landing > #landing-text .white-logo {
+  filter: invert(70%) brightness(118%) contrast(119%);
+  height: 20vh;
+}
+
+/* footer */
+
+#footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 10px;
+}
+
+#footer-wrapper > #footer-copyright {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+#footer-wrapper > #footer-social-wrapper {
+  margin: auto;
+}
+
+.button {
+  max-width: 200px;
+  padding: 10px 20px;
+  font-size: 0.7rem;
+  margin-top: 30px;
+}
